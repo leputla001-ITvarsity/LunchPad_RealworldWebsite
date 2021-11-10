@@ -1,0 +1,350 @@
+body
+{
+    background-color:white;
+    width: 100%;
+}
+
+#Top
+{
+    width: 100%;
+}
+/****************************************************************/
+/*Menubar                                                       */
+/****************************************************************/
+.Menubar
+{
+    background-color:ghostwhite;
+    overflow: hidden;
+    text-transform: uppercase;
+  
+}
+
+
+.Menubar a
+{
+  float: left;
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.Menubar a:hover
+{
+  background-color: #ddd;
+  color: black;
+}
+.Menubar a.active 
+{
+  background-color: palevioletred;
+  color: white;
+}
+
+/****************************************************************/
+/*universal                                                     */
+/****************************************************************/
+#Logo
+{
+    clear: both;
+    text-align: center;
+  
+}
+#Logo img
+{
+    width: 40%;
+}
+#Warning
+{
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    background-color: red;
+    clear: both;
+
+}
+
+#Warning p
+{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#Content
+{
+    float: left;
+    width: 70%;
+}
+#Content p
+{
+    text-align: justify;
+}
+
+#Content p img
+{
+    text-align: center;
+}
+#Sidebar
+{
+    float: right;
+    width: 30%;
+    color: red;
+}
+/****************************************************************/
+/*tables                                                        */
+/****************************************************************/
+table tr td
+{
+    text-align: center;
+    color: blue;
+    text-transform: uppercase;
+    align-content: center;
+}
+table a
+{
+    text-decoration: none;
+}
+table p
+{
+    text-align: center;
+}
+
+#Licence
+{
+    color: black;
+}
+/****************************************************************/
+/*Brands                                                        */
+/****************************************************************/
+#Brands
+{
+    color: black;
+}
+#Brands a
+{
+    text-decoration:  none;
+    color: #adadad;
+}
+#Brands a:hover
+{
+    color: yellowgreen;
+}
+#Brands #Blacks a:hover:after 
+{
+    content: url("Image/black.jpg");
+    width: 5%; 
+    display: inline-block;
+    position: absolute;
+    transform: scale(-.5,.5);
+    
+}
+#Brands #Milk a:hover:after 
+{
+    content: url("Image/castle-milk-stout.jpg");
+    width: 5%; 
+    display: inline-block;
+    position: absolute;
+    transform: scale(-.5,.5);
+
+}
+#Brands #Ruby a:hover:after 
+{
+    content: url("Image/brutal.jpg");
+    width: 5%; 
+    display: inline-block;
+    position: absolute;
+    transform: scale(-.5,.5);
+}
+  
+#Brands #Savanna a:hover:after 
+{
+    content: url("Image/savanna-dry.png");
+    width: 5%; 
+    display: inline-block;
+    position: absolute;
+    transform: scale(-.5,.5);
+   
+}
+/****************************************************************/
+/*footer                                                        */
+/****************************************************************/
+#Footer
+{
+    width: 100%;
+    height: 200px;
+    background-color: ghostwhite;
+    clear: both;
+    
+}
+
+#Footer p
+{
+    color: #adadad;
+}
+#Footer a
+{
+    color: #adadad;
+}
+
+#Footer h3
+{
+    color: #adadad;
+}
+#box1
+{
+    float: left;
+    width: 25%;
+    padding-right:30px; 
+}
+#Brands1
+{
+    float: left;
+    width: 25%;
+    padding-right:30px; 
+}
+#social_box
+{
+    float:right;
+    width: 30%;
+    padding-left:30px; 
+}
+
+#social_box a
+{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    text-decoration-style: none;
+    display:inline-block;
+}
+
+#social_box a:hover
+{
+    color: red;
+}
+ul.styled
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li
+{
+    border-top: solid 1px #e5e5e5;
+    padding: 3px 0px;
+}
+/****************************************************************/
+/*Copyright                                                     */
+/****************************************************************/
+#copyright
+{
+    width:100%;
+    height:20px;
+    text-align: center;
+    background-color: red;
+    clear:both;
+}
+
+#copyright p
+{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+hr
+{
+        height: 1px;
+        background-color: red;
+        border: none;
+}
+h3
+{
+    font-family: 'Gabriola', sans-serif;
+    color: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+h2
+{
+    font-family: 'Gabriola', sans-serif;
+    color: yellowgreen;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+#Content2
+{
+    clear: both;
+}
+
+
+/****************************************************************/
+/*Contact us                                                    */
+/****************************************************************/
+#CPage
+{
+    width: 100%;
+}
+.Form
+{
+    float:right;
+    width: 60%;
+    padding-left:30px;   
+}
+.Address
+{
+    float: left;
+    width: 30%;
+    padding-right:30px;
+    background-color:whitesmoke;
+    height: 520px;
+    clear: both;
+    border-radius: 5%;
+    
+}
+
+input[type=text], select
+{
+  width: 91%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea
+{
+ 
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]
+{
+  width: 91%;    
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover
+{
+  background-color: #45a049;
+}
+
+
+
